@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
+    "@fastify/cors": "^10.0.1",
     "dotenv": "^16.4.5",
     "fastify": "^4.20.0",
+    "fastify-cors": "^6.0.3",
     "graphql-request": "^5.0.0",
     "mysql2": "^3.2.0",
-    "node-fetch": "^3.3.1"
+    "node-fetch": "^3.3.1",
+    "sanitize-html": "^2.13.1"
   }
 }
